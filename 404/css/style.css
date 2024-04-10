@@ -169,3 +169,25 @@ body.dark-mode #notfound p {
   display: block; /* This will allow us to use margin auto for centering */
   margin: 0 auto; /* This centers the image horizontally */
 }
+
+@media only screen and (min-width: 1080px) {
+  .theme-switch-wrapper {
+    position: absolute;
+    top: 50%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Ensure true centering */
+  }
+
+  .sun-icon, .moon-icon {
+    width: 60px; /* Adjust as needed */
+    height: 60px; /* Adjust as needed */
+  }
+
+  .sun-icon {
+    left: -70px; /* Adjust as needed */
+  }
+
+  .moon-icon {
+    right: -70px; /* Adjust as needed */
+  }
+}
