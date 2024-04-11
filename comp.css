@@ -14,13 +14,13 @@ body {
     color: #25273a;
     border: none;
     cursor: pointer;
-    transition: all 0.3s;
+    transition: all 1s;
     box-shadow: 0 0 10px #7cb0df, 0 0 40px #7cb0df, 0 0 80px #7cb0df;
 }
 
 .glowing-button:hover {
     background-color: #25273a;
-    color: #00c3ff;
+    color: #ffffff;
     box-shadow: 0 0 20px #7cb0df, 0 0 30px #7cb0df, 0 0 40px #7cb0df;
 }
 
