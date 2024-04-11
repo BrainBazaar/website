@@ -17,21 +17,22 @@ body {
 }
 
 #notfound {
-  max-width: 520px;
+  max-width: 300px;
 }
 
+
 #notfound h1 {
-  font-size: 86px;
+  font-size: 50px;
   font-weight: 700;
 }
 
 #notfound h2 {
-  font-size: 21px;
+  font-size: 16.96px;
   font-weight: 400;
 }
 
 #notfound p {
-  font-size: 16px;
+  font-size: 12.92px;
   color: #fff;
 }
 
@@ -53,13 +54,13 @@ body {
 }
 
 .emoji-gif {
-  width: 100px; /* Adjust as needed */
+  width: 80.77px; /* Adjust as needed */
   height: auto; /* This will maintain the aspect ratio */
   display: block; /* This will allow us to use margin auto for centering */
   margin: 0 auto; /* This centers the image horizontally */
 }
 
 img{
-  width: 250px;
+  width: 177.69px;
   margin-top: -60px;
 }
