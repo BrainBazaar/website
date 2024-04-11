@@ -13,36 +13,33 @@ body {
   flex-direction: column;
 }
 
-/*icon*/
 .sun-icon{
   position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  width: 30px; /* Adjust as needed */
-  height: 30px; /* Adjust as needed */
+  top: 2px; /* Adjust as needed */
+  right: 70px; /* Adjust as needed */
+  width: 26px; /* Match the size of the toggle button */
+  height: 26px; /* Match the size of the toggle button */
 }
 .moon-icon {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    width: 25px; /* Adjust as needed */
-    height: 25px; /* Adjust as needed */
+  position: absolute;
+  top: 2px; /* Adjust as needed */
+  right: 2px; /* Adjust as needed */
+  width: 26px; /* Match the size of the toggle button */
+  height: 26px; /* Match the size of the toggle button */
 }
-
-.sun-icon {
-    left: -34px; /* Position the sun icon to the left of the slider */
-}
-
-.moon-icon {
-    right: -31px; /* Position the moon icon to the right of the slider */
-}
-
 
 /*theme*/
 .theme-switch-wrapper {
   position: absolute;
-  top: 25px;
-  right: 100px;
+  top: 10px; /* Adjust as needed */
+  right: 40px; /* Adjust as needed */
+}
+
+/*theme*/
+.theme-switch-wrapper {
+  position: absolute;
+  top: 10px; /* Adjust as needed */
+  right: 40px; /* Adjust as needed */
 }
 
 .theme-switch {
