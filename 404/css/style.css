@@ -6,39 +6,10 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background: #f6f6f6;
+  background: #25273a;
   font-family: 'Montserrat', sans-serif;
-  color: #14142b;
-  transition: background-color 0.5s ease;
-  flex-direction: column;
-}
-
-/* Dark theme */
-body.dark-mode {
-  background-color: #14142b;
-  color: #fff; /* Change text color to white in dark mode */
-}
-
-body.dark-mode #notfound a {
-  background-color: #fff;
-  color: #14142b;
-}
-
-body.dark-mode #notfound a:hover {
-  background-color: #7cb0df;
   color: #fff;
-}
-
-body.dark-mode .sun-icon,
-body.dark-mode .moon-icon {
-  filter: invert(1); /* Invert the colors of the icons in dark mode */
-}
-
-/* Dark theme styles for h1, h2, and p */
-body.dark-mode #notfound h1,
-body.dark-mode #notfound h2,
-body.dark-mode #notfound p {
-  color: #fff; /* Change text color to white in dark mode */
+  transition: background-color 0.9s ease;
 }
 
 .container {
@@ -61,7 +32,7 @@ body.dark-mode #notfound p {
 
 #notfound p {
   font-size: 16px;
-  color: #14142b;
+  color: #fff;
 }
 
 #notfound a {
@@ -86,26 +57,4 @@ body.dark-mode #notfound p {
   height: auto; /* This will maintain the aspect ratio */
   display: block; /* This will allow us to use margin auto for centering */
   margin: 0 auto; /* This centers the image horizontally */
-}
-
-@media only screen and (min-width: 1080px) {
-  .theme-switch-wrapper {
-    position: absolute;
-    top: 50%; /* Center vertically */
-    left: 50%; /* Center horizontally */
-    transform: translate(-50%, -50%); /* Ensure true centering */
-  }
-
-  .sun-icon, .moon-icon {
-    width: 60px; /* Adjust as needed */
-    height: 60px; /* Adjust as needed */
-  }
-
-  .sun-icon {
-    left: -70px; /* Adjust as needed */
-  }
-
-  .moon-icon {
-    right: -70px; /* Adjust as needed */
-  }
 }
