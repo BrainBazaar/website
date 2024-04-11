@@ -58,3 +58,8 @@ body {
   display: block; /* This will allow us to use margin auto for centering */
   margin: 0 auto; /* This centers the image horizontally */
 }
+
+img{
+  width: 250px;
+  margin-top: -150px;
+}
