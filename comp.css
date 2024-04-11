@@ -6,10 +6,6 @@ body {
     background-color: #24273A;
 }
 
-<<<<<<< HEAD
-
-=======
->>>>>>> 61e663735629907fad22a4c3d2be7b4cd1cf35cb
 
 /* Basic */
 
@@ -75,7 +71,7 @@ p {
 }
 
 .card {
-    width: 320px;
+    width: 220px;
     height: 350px;
     padding: 20px;
     color: white;
